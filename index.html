@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinCat</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1c7d5f24eb.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tincat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">İletişim</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Fiyatlama</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">İndir</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Yakındaki yeni ve ilginç kedilerle tanışın.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> App Store</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Play Store</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" class="title-image" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 features-box">
+          <i class="fas fa-check-circle fa-4x features-image"></i>
+          <h3>Kullanımı Kolay.</h3>
+          <p>Kullanımı çok kolay, kediniz bile bunu yapabilir.</p>
+        </div>
+
+        <div class="col-lg-4 features-box">
+          <i class="fas fa-bullseye fa-4x features-image"></i>
+          <h3>Elit Müşteri</h3>
+          <p>Tüm kediler var, mükemmel kediler.</p>
+        </div>
+
+        <div class="col-lg-4 features-box">
+          <i class="fas fa-heart fa-4x features-image"></i>
+          <h3>Çalışma Garantisi.</h3>
+          <p>Kediniz hayatının aşkını bulsun veya paranızı geri alın.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+  <section class="colored-section" id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Tincat'de istediğim aşkı buldum. Uygulama sayesinde Boncuk ile tanıştım. Artık daha iyi hissediyorum. Meow.</h2>
+          <img class="testimonial-image" src="images/cat-img.jpg" alt="cat-profile">
+          <em>Bostancı, İstanbul</em>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Kedim eskiden çok yalnızdı, ama TinCat'ın yardımıyla hayatının aşkını buldu. Onu mutlu görmek beni sevindiriyor.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Karşıyaka, İzmir</em>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- Press -->
+  <section class="colored-section" id="press">
+    <img class="press-image" src="images/turkishkit.png" alt="tk-logo">
+    <img class="press-image" src="images/kodloca.png" alt="kodloca-logo">
+    <img class="press-image" src="images/gfk.png" alt="biz-gfk-logo">
+    <img class="press-image" src="images/googledev.png" alt="gd-logo">
+  </section>
+
+  <!-- Pricing -->
+  <section class="white-section" id="pricing">
+    <h2 class="pricing-heading">Her İhtiyaca Göre Fiyat Planı.</h2>
+    <p>Sizin ve kediniz için uygun fiyat planları.</p>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Bronz Paket</h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text">Ücretsiz</h2>
+            <p>Her Gün İçin 5 Eşleşme</p>
+            <p>Her Gün İçin 10 Mesaj</p>
+            <p>Uygulamayı Sınırsız Kullanma</p>
+            <button type="button" class="btn btn-outline-dark btn-block btn-lg">Kayıt Ol</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Silver Paket</h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text">₺49 / ay</h2>
+            <p>Sınırsız Eşleşme</p>
+            <p>Sınırsız Mesaj</p>
+            <p>Uygulamayı Sınırsız Kullanma</p>
+            <button type="button" class="btn btn-dark btn-block btn-lg">Kayıt Ol</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold Paket</h3>
+          </div>
+
+          <div class="card-body">
+            <h2 class="price-text">₺99 / ay</h2>
+            <p>Öncelikle Listeleme</p>
+            <p>Sınırsız Eşleşme</p>
+            <p>Sınırsız Mesaj</p>
+            <p>Uygulamayı Sınırsız Kullanma</p>
+            <button type="button" class="btn btn-dark btn-block btn-lg">Kayıt Ol</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Bugün Kedinizin Gerçek Aşkını Bulun.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> App Store</button>
+      <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"></i> Play Store</button>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+    <p class="footer-p">© Copyright 2020 TinCat</p>
+  </footer>
+
+
+</body>
+
+</html>

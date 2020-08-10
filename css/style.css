@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 13%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.features-image {
+  color: #f38181;
+  padding-bottom: 1rem;
+}
+
+.features-image:hover {
+  color: #903749;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #f38181;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+#press {
+  background-color: #f38181;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  margin: 20px 20px 35px;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Section cta */
+
+/* Footer */
+#footer {
+  padding: 5% 5% 1%;
+}
+
+.footer-p {
+  font-weight: 600;
+}
+
+.footer-icon {
+  margin: 0 12px 18px;
+}
+
+/* Media Query */
+@media (max-width:991px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+  .big-heading{
+    font-size: 2.5rem;
+  }
+  .testimonial-text{
+    font-size: 2rem;
+  }
+  .pricing-heading{
+    font-size: 2.2rem;
+  }
+}
